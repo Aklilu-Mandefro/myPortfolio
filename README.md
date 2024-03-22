@@ -46,7 +46,8 @@ npm start or yarn start
 
 ## [Visit the App in Action](https://personal-website-in-react.vercel.app/) 
 <br>
-<img src="https://i.imgur.com/u61T5tg.png"/> <br> 
+
+<a href="https://personal-website-in-react.vercel.app/" target="_blank"><img src="https://i.imgur.com/u61T5tg.png" alt="The portfolio app homepage"> </a>
 
 ## Switch Between Light and Dark mode
    The default mode is light version. But, you can change it by navigating to the `src/pages/app.js/` directory.
