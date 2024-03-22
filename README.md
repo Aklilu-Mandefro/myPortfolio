@@ -44,6 +44,10 @@ npm run build or yarn build
 npm start or yarn start
 ```
 
+## [Visit the App in Action](https://personal-website-in-react.vercel.app/) 
+<br>
+<img src="https://i.imgur.com/u61T5tg.png"/> <br> 
+
 ## Switch Between Light and Dark mode
    The default mode is light version. But, you can change it by navigating to the `src/pages/app.js/` directory.
    Then, you will find the dark and light sections from line 5 and 6 respectively. Simply comment out one to apply the other.
