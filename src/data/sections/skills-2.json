@@ -1,0 +1,29 @@
+{
+    "title": "Hard Skills",
+    "items": [
+        {
+            "label": "Figma",
+            "value": "95"
+        },
+        {
+            "label": "Adobe XD",
+            "value": "90"
+        },
+        {
+            "label": "Sketch",
+            "value": "80"
+        },
+        {
+            "label": "Photoshop",
+            "value": "70"
+        },
+        {
+            "label": "Html",
+            "value": "40"
+        },
+        {
+            "label": "Css",
+            "value": "40"
+        }
+    ]
+}

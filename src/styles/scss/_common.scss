@@ -1,0 +1,465 @@
+/* -------------------------------------------
+
+main
+
+------------------------------------------- */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: $font-1;
+    font-size: $text;
+    font-weight: 400;
+    color: $dt-50;
+    line-height: 170%;
+    overscroll-behavior: none;
+    background-color: $gs-1;
+
+    @media screen and (max-width: 768px) {
+        font-size: $text - 1px;
+    }
+}
+
+.mil-wrapper {
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+/* -------------------------------------------
+
+typography
+
+------------------------------------------- */
+h1,
+.mil-h1,
+h2,
+.mil-h12,
+h3,
+.mil-h3,
+h4,
+.mil-h4,
+h5,
+.mil-h5,
+h6,
+.mil-h6 {
+    font-family: $font-1;
+    color: $dark;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+h1,
+.mil-h1 {
+    font-size: $h1;
+    line-height: 100%;
+
+    &.mil-h1-sm {
+        font-size: $h1 - 32px;
+
+        @media screen and (max-width: 768px) {
+            font-size: $h1 - 54px;
+        }
+    }
+
+    &.mil-h1-md {
+        font-size: $h1 - 22px;
+
+        @media screen and (max-width: 768px) {
+            font-size: $h1 - 54px;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: $h1 - 32px;
+    }
+}
+
+h2,
+.mil-h2 {
+    font-size: $h2;
+
+    @media screen and (max-width: 768px) {
+        font-size: $h2 - 12px;
+    }
+}
+
+h3,
+.mil-h3 {
+    font-size: $h3;
+
+    @media screen and (max-width: 768px) {
+        font-size: $h3 - 2px;
+    }
+}
+
+h4,
+.mil-h4 {
+    font-size: $h4;
+}
+
+h5,
+.mil-h5 {
+    font-size: $h5;
+}
+
+h6,
+.mil-h6 {
+    font-size: $h6;
+}
+
+.mil-404 {
+    font-size: $h1 + 90px;
+
+    @media screen and (max-width: 768px) {
+        font-size: $h1 + 30px;
+    }
+}
+
+blockquote {
+    padding: 60px;
+    background-color: $dt-5;
+    font-size: $text + 2px;
+    color: $dark;
+    font-style: italic;
+    border-left: solid 4px $accent;
+
+    @media screen and (max-width: 768px) {
+        padding: 30px;
+        font-size: $text;
+    }
+}
+
+.mil-text-sm {
+    font-size: $text - 1px;
+}
+
+.mil-text-lg {
+    font-size: $text + 2px;
+    line-height: 200%;
+}
+
+.mil-text-xl {
+    font-size: $text + 4px;
+    line-height: 200%;
+}
+
+.mil-shortened {
+    width: 80%;
+}
+
+.mil-bold {
+    font-weight: 600;
+}
+
+.mil-thin {
+    font-weight: 500;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.mil-accent {
+    color: $accent;
+}
+
+.mil-light {
+    color: $light !important;
+
+    & a {
+        color: $light !important;
+    }
+}
+
+.mil-dark {
+    color: $dark;
+}
+
+.mil-light-soft {
+    color: $lt-50;
+
+    & a {
+        color: $lt-50 !important;
+    }
+}
+
+.mil-dark-soft {
+    color: $dt-50;
+}
+
+.mil-marker {
+    background-color: $accent;
+    padding: 0 5px;
+}
+
+.mil-center {
+    text-align: center;
+}
+
+.mil-left {
+    text-align: left;
+}
+
+.mil-right {
+    text-align: right;
+}
+
+.mil-upper {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+/* -------------------------------------------
+
+button
+
+------------------------------------------- */
+
+.mil-btn {
+    white-space: nowrap;
+    background-color: $accent;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    padding: 0 60px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: $light;
+    transition: $t-sm;
+    cursor: pointer;
+
+    &.mil-sm-btn {
+        height: 70px;
+        padding: 0 50px;
+    }
+
+    &:hover {
+        filter: brightness(110%);
+        transform: scale(1.03);
+    }
+}
+/* -------------------------------------------
+
+link
+
+------------------------------------------- */
+.mil-link {
+    display: inline-flex;
+    align-items: center;
+    color: $dark !important;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+
+    & svg {
+        border-radius: 50%;
+        margin-left: 15px;
+        width: 40px;
+        height: 40px;
+        background-color: $accent;
+        padding: 11px;
+        color: $light;
+        transition: $t-sm;
+    }
+
+    &:hover {
+        & svg {
+            filter: brightness(110%);
+            transform: translateX(4px);
+        }
+    }
+
+    &.mil-icon-link {
+        & svg {
+            margin: 0;
+        }
+
+        &:hover {
+            & svg {
+                transform: scale(1.1);
+            }
+        }
+
+        &.mil-sm-link {
+            & svg {
+                padding: 5px;
+                width: 25px;
+                height: 25px;
+            }
+
+        }
+    }
+
+    &.mil-dark-icon {
+        & svg {
+            background-color: $dark;
+        }
+    }
+}
+/* -------------------------------------------
+
+divider
+
+------------------------------------------- */
+.mil-divider {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background-color: $gs-10;
+
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 7px;
+        height: 7px;
+        background-color: $accent;
+        border-radius: 50%;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: -3px;
+        right: 0;
+        width: 7px;
+        height: 7px;
+        background-color: $accent;
+        border-radius: 50%;
+    }
+}
+/* -------------------------------------------
+
+section title
+
+------------------------------------------- */
+.mil-section-title {
+    position: relative;
+    height: 30px;
+    display: flex;
+    align-items: center;
+
+    & h3 {
+        white-space: nowrap;
+        display: block;
+        padding: 0 30px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        position: absolute;
+        top: 1px;
+        background-color: $gs-1;
+    }
+
+    &.mil-left {
+        & h3 {
+            white-space: nowrap;
+            text-align: left;
+            transform: translateX(0);
+            margin-left: 0;
+            padding: 0;
+            padding-right: 30px;
+        }
+    }
+}
+/* -------------------------------------------
+
+spaces
+
+------------------------------------------- */
+.mil-mb-5 {
+    margin-bottom: 5px !important;
+}
+
+.mil-mb-15 {
+    margin-bottom: 15px !important;
+}
+
+.mil-mb-30 {
+    margin-bottom: 30px !important;
+}
+
+.mil-mb-60 {
+    margin-bottom: 60px !important;
+}
+
+.mil-mb-90 {
+    margin-bottom: 90px !important;
+}
+
+.mil-p-90-90 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.mil-p-0-90 {
+    padding-bottom: 90px;
+}
+
+.mil-p-90-0 {
+    padding-top: 90px;
+}
+
+.mil-p-90-60 {
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.mil-p-0-60 {
+    padding-bottom: 60px;
+}
+
+.mil-p-90-30 {
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+.mil-p-0-30 {
+    padding-bottom: 30px;
+}
+
+
+.mil-adaptive-right {
+    display: flex;
+    justify-content: flex-end;
+
+    @media screen and (max-width: 992px) {
+        justify-content: flex-start;
+    }
+}
+
+.mil-text {
+    ul {
+        margin-left: 1em;
+    }
+    p, ul, blockquote, ol, h1, h2, h3, h4, h5, h6, iframe, table, object {
+        margin-bottom: 30px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.mil-portfolio-carousel {
+    overflow: visible !important;
+}

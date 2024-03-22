@@ -1,0 +1,23 @@
+{
+    "title": "Services",
+    "items": [
+        {
+            "title": "UI/UX Design",
+            "icon": "/img/icons/1.svg",
+            "text": "Elevate your online presence with captivating user interfaces and seamless experiences",
+            "link": "/services/service-1"
+        },
+        {
+            "title": "Logo Design",
+            "icon": "/img/icons/2.svg",
+            "text": "Establish a strong and cohesive brand identity that resonates with your audience.",
+            "link": "/services/service-2"
+        },
+        {
+            "title": "Branding",
+            "icon": "/img/icons/3.svg",
+            "text": "All of which have a singular goal: to build environments where our clients thrive.",
+            "link": "/services/service-3"
+        }
+    ]
+}

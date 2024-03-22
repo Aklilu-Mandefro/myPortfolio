@@ -1,0 +1,23 @@
+{
+    "title": "Reviews",
+    "items": [
+        {
+            "name": "HANA DEBEKULU",
+            "image": "/img/customers/1.jpg",
+            "role": "Bahir Dar University",
+            "text": "Working with Mahider Mandefro as our UI designer was an absolute pleasure. Her attention to detail and creative approach brought our vision to life. The user interface she designed exceeded our expectations, and we received positive feedback from our clients. Highly recommended!"
+        },
+        {
+            "name": "Kalkidan",
+            "image": "/img/customers/2.jpg",
+            "role": "volunteer-tech.com",
+            "text": "I had the opportunity to collaborate with Mahider, and I must say she is incredibly talented. Her ability to understand our brand and translate it into a interface was impressive. Mahider's designs were intuitive, and enhanced the overall user experience. I look forward to working with her again!"
+        },
+        {
+            "name": "Sirak",
+            "image": "/img/customers/3.jpg",
+            "role": "turing.com",
+            "text": "Mahider Mandefro is an exceptional UI designer. She has a keen eye for aesthetics and understands how to create interfaces. Mahider's designs greatly improved the usability of our application, and we couldn't be happier with the results. Highly skilled and reliable!"
+        }
+    ]
+}

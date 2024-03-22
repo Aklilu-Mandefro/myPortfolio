@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css);
+
+$font-1: 'Outfit', sans-serif;
+
+$dark: rgba(32, 33, 36, 1);
+$light: rgba(255, 255, 255, 1);
+$accent: rgba(244, 67, 54, 1);
+
+$dt-5: rgba(32, 33, 36, .05);
+$dt-10: rgba(32, 33, 36, .1);
+$dt-20: rgba(32, 33, 36, .2);
+$dt-30: rgba(32, 33, 36, .3);
+$dt-40: rgba(32, 33, 36, .4);
+$dt-50: rgba(32, 33, 36, .5);
+$dt-60: rgba(32, 33, 36, .6);
+$dt-70: rgba(32, 33, 36, .7);
+$dt-80: rgba(32, 33, 36, .8);
+$dt-90: rgba(32, 33, 36, .9);
+$dt-95: rgba(32, 33, 36, .95);
+
+$lt-5: rgba(255, 255, 255, .05);
+$lt-10: rgba(255, 255, 255, .1);
+$lt-20: rgba(255, 255, 255, .2);
+$lt-30: rgba(255, 255, 255, .3);
+$lt-40: rgba(255, 255, 255, .4);
+$lt-50: rgba(255, 255, 255, .5);
+$lt-60: rgba(255, 255, 255, .6);
+$lt-70: rgba(255, 255, 255, .7);
+$lt-80: rgba(255, 255, 255, .8);
+$lt-90: rgba(255, 255, 255, .9);
+$lt-95: rgba(255, 255, 255, .95);
+
+$gs-1: rgba(253, 253, 253, 1);
+$gs-5: rgba(244, 244, 244, 1);
+$gs-10: rgba(233, 233, 233, 1);
+$gs-20: rgba(210, 211, 211, 1);
+$gs-30: rgba(188, 188, 189, 1);
+$gs-40: rgba(166, 166, 167, 1);
+$gs-50: rgba(143, 144, 145, 1);
+$gs-60: rgba(121, 122, 124, 1);
+$gs-70: rgba(99, 100, 102, 1);
+$gs-80: rgba(77, 77, 80, 1);
+$gs-90: rgba(54, 55, 58, 1);
+$gs-95: rgba(43, 44, 47, 1);
+
+$h1: 92px;
+$h2: 38px;
+$h3: 24px;
+$h4: 18px;
+$h5: 16px;
+$h6: 14px;
+
+$text: 15px;
+
+$logo-bg-color: $accent;
+$logo-dot-color: $light;
+$panel-color: $dark;
+$panel-dropdown-color: $accent;
+$panel-border-color: $gs-90;
+$panel-text-color: $lt-90;
+
+$t-sm: .2s cubic-bezier(0, 0, 0.3642, 1);
+$t-md: .4s cubic-bezier(0, 0, 0.3642, 1);
+$t-lg: .6s cubic-bezier(0, 0, 0.3642, 1);
