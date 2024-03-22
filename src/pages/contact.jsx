@@ -107,7 +107,7 @@ const Contact = () => {
                 <div className="col-lg-6 mil-up">
                     <input 
                       type="text" 
-                      placeholder="What's your name"
+                      placeholder=" Your name"
                       name="name" 
                       required="required" 
                       onChange={handleChange}
