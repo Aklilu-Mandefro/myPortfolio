@@ -7,31 +7,6 @@ In today's digital age, establishing a strong online presence is crucial for pro
 
 Whether you're a seasoned developer, a creative designer, a freelance writer, or any other digital professional, having your corner of the internet can significantly impact your professional and personal growth positively in several ways. So, **fork** this application, customize it and make it your digital home base — a place where you can curate your online presence, showcase your skills, projects, accomplishments, and tell your story in a way that's entirely unique to you. 
  
-## Core Features
-
-- Newsletter Form with MailChimp integration
-- Contact Page with working Form (without PHP or node.js)
-- Projects / Posts / Services section based on markdown files (.md)
-- 2+ Blog Page Layouts with Custom Single Pages
-- Projects Grid & Listing with Custom Single Pages
-- Services Listing with Custom Single pages and price section
-- Beautiful Animated Carousels with Testimonials and Projects
-- 18+ Pre-built Pages
-- 3+ Homepages layouts
-- Skills section
-- Unique Story Page layouts
-- Pricing Plans
-- Resume Timeline
-- Social network
-- Modern and Unique Design
-- Modern animations and effects
-- Easy to Customize Typography: Colors, Fonts, etc.
-- Easy to Customize Content: all data in separate JSON files
-- Page Transitions Effects
-- Parallax animations
-- GSAP Scrolling animations
-- Fully Responsive 100%
-
 
 ## Technologies used
 
@@ -44,8 +19,6 @@ Whether you're a seasoned developer, a creative designer, a freelance writer, or
 - Formspree API
 - Google fonts
 
-
-
 ## Installation
 1. Install [Node](https://nodejs.org/en/) and npm
 2. Fork the project
@@ -54,7 +27,7 @@ Whether you're a seasoned developer, a creative designer, a freelance writer, or
 The src will automatically reload if you change any of the source files.
 
  ## Building
-Run `npm run build` to build the project. The build artifacts will be stored in the `.next/ directory`. Use the run build flag for a production build.
+Run `npm run build` to build the project. The build artifacts will be stored in the `.next/` directory. Use the run build flag for a production build.
    
 ## Switch Between Light and Dark mode
    The default mode is light version. But, you can change it by navigating to the `src/pages/app.js/` directory.
