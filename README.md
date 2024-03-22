@@ -34,10 +34,13 @@ npm run dev or yarn dev
 ```
 Then, navigate to `localhost:3000/`. to view it in the browser.
 The src will automatically reload if you change any of the source files.
+
 5. Build for production 
+
 ```bash
 npm run build or yarn build
 ```
+
 6. Run production mode
 
 ```bash
