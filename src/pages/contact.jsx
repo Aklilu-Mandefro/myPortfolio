@@ -128,7 +128,7 @@ const Contact = () => {
                 </div>
                 <div className="col-lg-12 mil-up">
                     <textarea 
-                      placeholder="Tell us about our project"
+                      placeholder="Your Message"
                       name="message" 
                       required="required"
                       onChange={handleChange}
@@ -137,7 +137,7 @@ const Contact = () => {
                     />
                 </div>
                 <div className="col-lg-8">
-                    <p className="mil-up mil-mb-30"><span className="mil-accent">*</span> We promise not to disclose your personal information to third parties.</p>
+                    <p className="mil-up mil-mb-30"><span className="mil-accent">*</span> I promise not to disclose your personal information to third parties.</p>
                 </div>
                 <div className="col-lg-4">
                     <div className="mil-adaptive-right mil-up mil-mb-30">
