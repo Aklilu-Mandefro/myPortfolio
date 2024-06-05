@@ -1,6 +1,6 @@
-# ✍️ MyPortfolio
+# ✍️ myPortfolio
 
-MyPortfolio is a minimal personal website portfolio app powered by Next.js that can be used by Developers, Designers, IT specialists, Freelancers, Photographers or any other Digital Professionals. This app includes: Dark & Light versions, Powerful Portfolio, Blog, projects, Services pages, pricing, Contact and Newsletter Form, beautiful animations and more.
+myPortfolio is a minimal personal website portfolio app powered by Next.js that can be used by Developers, Designers, IT specialists, Freelancers, Photographers or any other Digital Professionals. This app includes: Dark & Light versions, Powerful Portfolio, Blog, projects, Services pages, pricing, Contact and Newsletter Form, beautiful animations and more.
 
 ## Motivation behind this App
 In today's digital age, establishing a strong online presence is crucial for professionals across various industries. A personal website serves as your digital storefront, offering a platform to showcase your skills, projects,blog posts, accomplishments, and more. 
