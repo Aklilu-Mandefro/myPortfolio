@@ -47,10 +47,10 @@ npm run build or yarn build
 npm start or yarn start
 ```
 
-## [Visit the App in Action](https://personal-website-in-react.vercel.app/) 
+## [Visit the App](https://myportfolio-et.vercel.app/) 
 <br>
 
-<a href="https://personal-website-in-react.vercel.app/" target="_blank"><img src="https://i.imgur.com/u61T5tg.png" alt="The portfolio app homepage"> </a>
+<a href="https://myportfolio-et.vercel.app/" target="_blank"><img src="https://i.imgur.com/u61T5tg.png" alt="The portfolio app homepage"> </a>
 
 ## Switch Between Light and Dark mode
    The default mode is light version. But, you can change it by navigating to the `src/pages/app.js/` directory.
@@ -63,7 +63,7 @@ npm start or yarn start
    Head over to [Formspree](https://formspree.io) website, create an account and get your API. Once you are done, navigate to `src/data/app.json`. Open **app.json** file and paste your formspree API into **formspreeURL** section at line 8. 
 
 ## Issues
-   If you find any issues while installing or using the app, kindly open an [issue](https://github.com/Aklilu-Mandefro/personal-website-in-react/issues) with the tag
+   If you find any issues while installing or using the app, kindly open an [issue](https://github.com/Aklilu-Mandefro/myPortfolio/issues) with the tag
 "enhancement".
    **Note:** Make sure you browse through the existing issues to check if the issue already exists.<br>
    
@@ -71,7 +71,7 @@ npm start or yarn start
 Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this app better, please fork the repo and
-create a pull request. You can also simply open a [discussions](https://github.com/Aklilu-Mandefro/personal-website-in-react/discussions/)  or an [issue](https://github.com/Aklilu-Mandefro/personal-website-in-react/issues) with the tag
+create a pull request. You can also simply open a [discussions](https://github.com/Aklilu-Mandefro/myPortfolio/discussions/)  or an [issue](https://github.com/Aklilu-Mandefro/myPortfolio/issues) with the tag
 "enhancement".
 
 ## Credits for the images used in this app
